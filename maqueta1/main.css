@@ -1,0 +1,18 @@
+.jumbotron{
+    background-image: url('jumbobg.jpg');
+    background-size: cover;
+}
+
+.backcolor{
+    background-color: rgba(242, 242, 242, 0.8);
+}
+
+.carousel img{
+    height: 400px;
+    
+}
+
+/* la forma ideal sería meternos en SASS y modificar las variables */
+.bg-primary{
+    background-color: purple !important;
+}
