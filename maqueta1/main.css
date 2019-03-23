@@ -1,3 +1,14 @@
+
+:root{
+    --my-white: #fffffb;
+    --my-primary: #a69b97;
+    --my-secondary: #d7ccc8;
+    --my-secondary-trans: #d7ccc8a2;
+    --my-terciary: #ffab91;
+    --my-terciary-dark: #724537;
+    --my-mistake: "LoL";
+}
+
 .jumbotron{
     background-image: url('jumbobg.jpg');
     background-size: cover;
@@ -11,8 +22,37 @@
     height: 400px;
     
 }
+.bg-my-secondary{
+    background-color: var(--my-secondary, var(--light));
+}
 
-/* la forma ideal sería meternos en SASS y modificar las variables */
-.bg-primary{
-    background-color: purple !important;
+.bg-my-secondary-trans{
+    background-color: var(--my-secondary-trans);
+}
+.bg-my-primary{
+    background-color: var(--my-primary, var(--primary));
+}
+
+.my-button{
+    background-color: var(--my-terciary, var(--primary));
+    box-shadow: 2px 2px 4px var(--my-terciary-dark);
+}
+
+.bg-my-terciary{
+    background-color: var(--my-terciary, var(--primary));
+}
+
+.my-title{
+    color: var(--my-primary);
+    font-weight: bold;
+}
+
+.my-subtitle{
+    color: var(--my-terciary);
+    text-shadow: 2px 2px 4px var(--my-terciary-dark);
+}
+
+.my-mistake{
+
+    color: var(--my-mistake);
 }

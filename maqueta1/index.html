@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap.css">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-my-secondary">
         <a class="navbar-brand" href="#"><img src="https://via.placeholder.com/50" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item my-title">
               <a class="nav-link" href="#">Nombre <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -40,19 +40,19 @@
         </div>
     </nav>
     <div class="jumbotron jumbotron-fluid">
-        <div class="container rounded p-3 backcolor ">
+        <div class="container rounded p-3 bg-my-secondary-trans">
             <div class="media">
                 <img src="https://via.placeholder.com/100" class="mr-3 rounded mx-auto d-block" alt="profile picture">
                 <div class="media-body">
                     <h1 class="display-4">Nombre Apellidos</h1>
-                    <h3>Front-end Developer</h3>
+                    <h3 class="my-subtitle">Front-end Developer</h3>
                 </div>
                 
             </div>
             <p class="lead">Cat ipsum dolor sit amet, american bobtail tom bobcat. Jaguar havana brown. Malkin tom but birman manx and manx. Panther bombay ocelot and thai burmese but american shorthair so grimalkin. Mouser burmese tom mouser and munchkin and cougar. Siamese burmese and cheetah. Havana brown burmese mouser yet burmese manx. Lynx turkish angora or burmese. Lion tomcat kitten kitten american shorthair yet scottish fold. Egyptian mau malkin. Burmese bobcat munchkin donskoy and egyptian mau bombay. Siberian ragdoll singapura. Siberian lynx yet malkin tom. 
             </p>
             <div class="text-center">
-                <button type="button" class="btn btn-primary">Contáctame</button>
+                <button type="button" class="btn my-button">Contáctame</button>
             </div>
         </div>
     </div>
@@ -115,7 +115,7 @@
         </div>
         <div class="container">
             <div class="row mb-3">
-                <div class="col-lg-4 col-sm-12">Educación</div>
+                <div class="col-lg-4 col-sm-12 my-title">Educación</div>
                 <div class="col-lg-8 col-sm-12">
                     <div class="row mb-3">
                         <div class="col-2">2018</div>
@@ -138,7 +138,7 @@
                 </div>
             </div>
             <div class="row mb-3">
-                    <div class="col-lg-4 col-sm-12">Experiencia laboral</div>
+                    <div class="col-lg-4 col-sm-12 my-title">Experiencia laboral</div>
                     <div class="col-lg-8 col-sm-12">
                         <div class="row mb-3">
                             <div class="col-2">2018</div>
@@ -190,14 +190,14 @@
             <div class="row">
                     <div class="col-6">
                         <ul class="list-group">
-                            <li class="list-group-item active">IDIOMAS</li>
+                            <li class="list-group-item bg-my-terciary">IDIOMAS</li>
                             <li class="list-group-item">Español</li>
                             <li class="list-group-item">Inglés</li>
                         </ul>
                     </div>
                     <div class="col-6">
                             <ul class="list-group">
-                                    <li class="list-group-item active">Hobbies</li>
+                                    <li class="list-group-item bg-my-terciary">Hobbies</li>
                                     <li class="list-group-item">Voluntariado en Open Source Weekend</li>
                                     <li class="list-group-item">Talleres de Bootstrap</li>
                                 </ul>
@@ -224,13 +224,13 @@
                     </label>
                     <textarea class="form-control" id="email-text" rows="6"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+                <button type="submit" class="btn my-button mb-2">Enviar</button>
             </div>
         </div>
         
     </div>
 
-    <footer class="page-footer font-small bg-primary pt-4">
+    <footer class="page-footer font-small bg-my-secondary pt-4">
         <div class="container-fluid text-center text-md-left pl-md-5">
             <div class="row">
                 <div class="col-md-6 mt-md-0 mt-3">
@@ -270,7 +270,7 @@
         
             </div>
         
-            <div class="bg-dark footer-copyright text-center py-3">© 2018 Copyright: Nombre Apellidos
+            <div class="bg-my-primary footer-copyright text-center py-3">© 2018 Copyright: Nombre Apellidos
             </div>
     
           </footer>
