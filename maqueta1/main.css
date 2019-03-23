@@ -14,14 +14,14 @@
     background-size: cover;
 }
 
-.backcolor{
-    background-color: rgba(242, 242, 242, 0.8);
+.bg-no-color{
+    background-color: var(--my-white);
 }
 
 .carousel img{
-    height: 400px;
-    
+    height: 400px;  
 }
+
 .bg-my-secondary{
     background-color: var(--my-secondary, var(--light));
 }
@@ -29,6 +29,7 @@
 .bg-my-secondary-trans{
     background-color: var(--my-secondary-trans);
 }
+
 .bg-my-primary{
     background-color: var(--my-primary, var(--primary));
 }
@@ -53,6 +54,5 @@
 }
 
 .my-mistake{
-
     color: var(--my-mistake);
 }
