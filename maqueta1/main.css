@@ -40,6 +40,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .my-button{
     background-color: var(--my-terciary, var(--primary));
     box-shadow: 2px 2px 4px var(--my-terciary-dark);
@@ -72,6 +73,8 @@
     color: var(--my-mistake);
 }
 =======
+=======
+>>>>>>> 482d8c0a9af90f9b11c97a2c8f0e57e22a563851
 /* la forma ideal sería meternos en SASS y modificar las variables */
 .bg-primary{
     background-color: purple !important;
