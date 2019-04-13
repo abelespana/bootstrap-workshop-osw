@@ -8,6 +8,15 @@
     --my-terciary: #ffab91;
     --my-terciary-dark: #724537;
     --my-mistake: "LoL";
+    --font-color-carousel: red;
+}
+
+.carousel-indicators li {
+    background-color: var(--font-color-carousel, white);
+}
+
+div.carousel-caption {
+    color: var(--font-color-carousel, white);
 }
 
 .jumbotron{
@@ -39,8 +48,6 @@
     background-color: var(--my-primary, var(--primary));
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 .my-button{
     background-color: var(--my-terciary, var(--primary));
     box-shadow: 2px 2px 4px var(--my-terciary-dark);
@@ -72,11 +79,7 @@
 .my-mistake{
     color: var(--my-mistake);
 }
-=======
-=======
->>>>>>> 482d8c0a9af90f9b11c97a2c8f0e57e22a563851
 /* la forma ideal sería meternos en SASS y modificar las variables */
 .bg-primary{
     background-color: purple !important;
 }
->>>>>>> 482d8c0a9af90f9b11c97a2c8f0e57e22a563851
